@@ -1,6 +1,6 @@
 
-import { client, urlFor, } from "@/lib/utils";
-import Cart from "@/components/ui/components/cart/Cart";
+import { client, urlFor, } from "../../lib/utils";
+import Cart from "../../components/ui/components/cart/Cart";
 import { Suspense } from "react";
 
 async function getData() {

@@ -1,7 +1,7 @@
 import { client, urlFor } from "../../../lib/utils";
 import Image from "next/image";
 import { Star,Truck,ShoppingCartIcon, CheckCircle2 } from "lucide-react";
-import { Button } from "../../../components/ui";
+import { Button } from "../../../components/ui/button";
 import { Suspense } from "react";
 
 async function getData(slugeid) {
